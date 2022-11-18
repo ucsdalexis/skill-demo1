@@ -16,7 +16,7 @@ public class TestDocSearch {
 	@Test 
 	public void testSearch() throws URISyntaxException, IOException {
     Handler h = new Handler("./technical/");
-    URI rootPath = new URI("http://localhost/search?q=taxation");
+    URI rootPath = new URI("http://localhost/search?q=tax");
     Path path1 = Paths.get("./technical/biomed/1471-2296-3-3.txt");
     Path path2 = Paths.get("./technical/government/Gen_Account_Office/d01591sp.txt");
     Path path3 = Paths.get("./technical/plos/journal.pbio.0020052.txt");
